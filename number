@@ -1,0 +1,14 @@
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int rem=a%9;
+        if(a%9==0){
+            System.out.println(9);
+        }
+        else{
+            System.out.println(rem);
+        }
+    }
+}
